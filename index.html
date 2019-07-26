@@ -3,14 +3,14 @@
 <head>
 	<title>Ponni Maria Genevev </title>
 	<link rel="stylesheet" type="text/css" href="/styles.css">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="title" content="Ponni Maria Genevev">
 	<meta name="description" content="Ponni Maria Genevev">
 	<meta name="keywords" content="Ponni Maria Genevev, Ponni Maria, Ponni, Knowledge Engineer,business analyst ">
 	<meta name="robots" content="index, follow">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="language" content="English">
-
     <style>
     /* https://newtodesing.com/ 
    v2.0 | 20110126
@@ -26,6 +26,9 @@
 
 /* Reset Styles */
 
+html{
+    height: 100%;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -58,6 +61,7 @@ a{
 }
 
 body {
+    height: 100%;
 	line-height: 1;
 	font-family: lato, ubuntu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
 	text-rendering : optimizeLegibility;
@@ -110,6 +114,7 @@ div , footer {
 .hero {
 	margin: 50px auto; 
 	position: relative;
+    margin-top: 30%;
 }
 
 h1.name {
@@ -146,238 +151,6 @@ h1.name {
 }
 
 /*hero ends*/
-
-/*skills & intrests*/
-
-.sections {
-	vertical-align: top;
-	display: inline-block;
-	width: 49.7%;
-	height: 50px;
-}
-
-.section-title {
-	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 15px;
-}
-
-.list-card {
-	margin: 30px 0;
-}
-
-.list-card .exp , .list-card div{
-	display: inline-block;
-	vertical-align: top;
-}
-
-.list-card .exp {
-	margin-right: 15px;
-	color: #4A90E2;
-	font-weight: 600;
-	width: 100px;
-}
-
-.list-card div {
-	width: 70%;
-}
-
-.list-card h3 {
-	font-size: 20px;
-	font-weight: 600;
-	color: #5B6A9A;
-	line-height: 26px;
-	margin-bottom: 8px;
-}
-
-.list-card div span {
-	font-size: 16px;
-	color: #81899C;
-	line-height: 22px;
-}
-
-/*skill and intrests ends*/
-
-/* Achievements */
-
-
-.cards {
-	max-width: 1120px;
-	display: block;
-	margin-top: 280px;
-}
-
-.card {
-	width: 47.9%;
-	height: 200px;
-	background-color: #EEF0F7;
-	display: inline-block;
-	margin: 7px 5px;
-	vertical-align: top;
-	border-radius: 10px;
-	text-align: center;
-	padding-top: 50px
-}
-
-.card-active , .card:hover{
-	transform: scale(1.02);
-	transition: 0.5s;
-	background-color: #fff;
-	box-shadow: 0px 5px 50px -8px #ddd;
-	cursor: pointer;
-}
-
-
-.skill-level {
-	display: inline-block;
-	max-width: 160px;
-}
-
-.skill-level span {
-	font-size: 35px;
-	font-weight: 300;
-	color: #5B6A9A;
-	vertical-align: top;
-}
-
-.skill-level h2 {
-	font-size: 95px;
-	font-weight: 300;
-	display: inline-block;
-	vertical-align: top;
-	color: #5B6A9A;
-	letter-spacing: -5px;
-}
-
-.skill-meta {
-	vertical-align: top;
-	display: inline-block;
-	max-width: 300px;
-	text-align: left;
-	margin-top: 15px;
-	margin-left: 15px;
-}
-
-.skill-meta h3 {
-	font-size: 20px;
-	font-weight: 800;
-	color: #5B6A9A;
-	margin-bottom: 5px;
-}
-
-.skill-meta span{
-	color: #81899C;
-	line-height: 20px;
-	font-size: 16px;
-}
-
-/* Achievements ends */
-
-
-
-/* Timeline styles*/
-
-
-ol {
-	position: relative;
-	display: block;
-	margin: 100px 0;
-	height: 2px;
-	background: #EEF0F7;
-
-}
-ol::before,
-ol::after {
-	content: "";
-	position: absolute;
-	top: -10px;
-	display: block;
-	width: 0;
-	height: 0;
-  	border-radius: 10px;
-	border: 0px solid #31708F;
-}
-ol::before {
-	left: -5px;
-}
-ol::after {
-	right: -10px;
-	border: 0px solid transparent;
-	border-right: 0;
-	border-left: 20px solid #31708F;
-  	border-radius: 3px;
-}
-
-/* ---- Timeline elements ---- */
-li {
-	position: relative;
-	display: inline-block;
-	float: left;
-	width: 25%;
-  	height: 50px;
-}
-li .line {
-  position: absolute;
-  top: -47px;
-  left: 1%;
-  font-size: 20px;
-  font-weight: 600;
-  color: #04143A;
-}
-li .point {
-	content: "";
-	top: -7px;
-	left: 0%;
-	display: block;
-	width: 8px;
-	height: 8px;
-	border: 4px solid #fff;
-	border-radius: 10px;
-	background: #4A90E2;
-  position: absolute;
-}
-li .description {
-  display: none;
-  padding: 10px 0;
-  margin-top: 20px;
-  position: relative;
-  font-weight: normal;
-  z-index: 1;
-  max-width: 95%;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 25px;
-  color: #5B6A9A;
-}
-.description::before {
-  content: '';
-  width: 0; 
-  height: 0; 
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #f4f4f4;
-  position: absolute;
-  top: -5px;
-  left: 43%;
-}
-
-
-.timeline .date{
-	font-size: 14px;
-	color: #81899C;
-	font-weight: 300;
-}
-
-/* ---- Hover effects ---- */
-li:hover {
-  color: #48A4D2;
-}
-li .description {
-  display: block;
-}
-
-/*timeline ends*/
-
 
 
 /* Media queries*/
